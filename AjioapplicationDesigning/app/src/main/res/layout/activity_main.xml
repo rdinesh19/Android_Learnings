@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constrainlayout_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <Button
+                android:id="@+id/button_men"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/button1"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/button_women"
+                app:layout_constraintEnd_toStartOf="@+id/button_women"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toTopOf="@+id/button_women" />
+
+            <Button
+                android:id="@+id/button_women"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/women"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/button_kids"
+                app:layout_constraintStart_toEndOf="@+id/button_men"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_kids"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#FCF803"
+                android:text="@string/button3kids"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/button_women"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toEndOf="@+id/button_women"
+                app:layout_constraintTop_toTopOf="@+id/button_women" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo4"
+                android:scaleType="fitXY"
+                android:src="@drawable/aa"
+                app:layout_constraintBottom_toTopOf="@id/barrier_one"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@+id/button_women" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="imageView"
+                app:layout_constraintBottom_toTopOf="@id/textView4barrier"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+            <TextView
+                android:id="@+id/textView4barrier"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/textview"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@id/barrier_two"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/barrier_one" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="top"
+                app:constraint_referenced_ids="imageView3,imageView4,textView8_red,textView7_blue"
+                app:layout_constraintBottom_toTopOf="@id/imageView3"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/textView4barrier" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@android:color/holo_blue_dark"
+                android:contentDescription="@string/todo3"
+                android:scaleType="fitXY"
+                android:src="@drawable/orange_red"
+                app:layout_constraintBottom_toTopOf="@id/barrier_three"
+                app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/barrier_two" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@android:color/holo_red_light"
+                android:contentDescription="@string/todo2"
+                android:scaleType="fitXY"
+                android:src="@drawable/blue"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toEndOf="@id/imageView3"
+                app:layout_constraintTop_toTopOf="@id/imageView3" />
+
+            <TextView
+                android:id="@+id/textView7_blue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:text="@string/textview7"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@id/barrier_thee_center"
+                app:layout_constraintEnd_toStartOf="@id/textView8_red"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toTopOf="@id/imageView3" />
+
+            <TextView
+                android:id="@+id/textView8_red"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="20dp"
+                android:padding="5dp"
+                android:text="@string/textview8"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@id/textView7_blue"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toEndOf="@id/textView7_blue"
+                app:layout_constraintTop_toTopOf="@+id/textView7_blue" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="5dp"
+                android:text="@string/textvalue9"
+                app:layout_constraintBottom_toTopOf="@id/barrier_three"
+                app:layout_constraintEnd_toStartOf="@id/textView10_red"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/barrier_thee_center" />
+
+            <TextView
+                android:id="@+id/textView10_red"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="5dp"
+                android:text="@string/textview6"
+                android:textColor="@android:color/black"
+
+                app:layout_constraintBottom_toBottomOf="@id/textView9"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toEndOf="@id/textView9"
+                app:layout_constraintTop_toTopOf="@id/textView9" />
+
+            <TextView
+                android:id="@+id/textView5_red"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:padding="20dp"
+
+                android:background="@android:color/holo_red_light"
+                android:text="@string/textview7"
+                app:layout_constraintBottom_toTopOf="@id/barrier_four"
+                app:layout_constraintEnd_toStartOf="@+id/textView6_yellow"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/barrier8" />
+
+            <TextView
+                android:id="@+id/textView6_yellow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:padding="20dp"
+                android:text="@string/textview6"
+                app:layout_constraintBottom_toTopOf="@id/barrier_four"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toEndOf="@+id/textView5_red"
+                app:layout_constraintTop_toBottomOf="@id/barrier8" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier_thee_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:barrierDirection="top"
+                app:constraint_referenced_ids="textView9,textView10_red"
+                app:layout_constraintBottom_toTopOf="@id/textview11_blue"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/textView7_blue" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="imageView3,imageView4,textView9,textView10_red"
+                app:layout_constraintBottom_toTopOf="@id/barrier8"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="top"
+                app:constraint_referenced_ids="textView5_red,textView6_yellow"
+                app:layout_constraintBottom_toTopOf="@id/textView6_yellow"
+                app:layout_constraintEnd_toEndOf="@+id/constrainlayout_two"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/barrier_three" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="textView6_yellow,textView5_red"
+                app:layout_constraintBottom_toTopOf="@id/textview11_blue"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/textView6_yellow" />
+
+
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/textview11_blue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/blue"
+
+                android:padding="20dp"
+                android:text="@string/textview11_blue"
+                app:layout_constraintBottom_toBottomOf="@id/textview12_red"
+                app:layout_constraintEnd_toStartOf="@id/textview12_red"
+                app:layout_constraintStart_toStartOf="@id/constrainlayout_two"
+                app:layout_constraintTop_toBottomOf="@id/barrier_four" />
+
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/textview12_red"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orange_red"
+                android:padding="20dp"
+                android:text="@string/textview12_red"
+                app:layout_constraintBottom_toBottomOf="@id/constrainlayout_two"
+                app:layout_constraintEnd_toEndOf="@id/constrainlayout_two"
+                app:layout_constraintStart_toEndOf="@id/textview11_blue"
+                app:layout_constraintTop_toTopOf="@id/textview11_blue" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
