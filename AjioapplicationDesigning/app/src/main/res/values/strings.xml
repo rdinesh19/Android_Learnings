@@ -1,64 +1,6 @@
 <resources>
-    <string name="app_name">Ajio application Designing</string>
-    <string name="searchviewhint">What would you like shop today? </string>
-    <string name="button1">MEN</string>
-    <string name="textview">SUPER STEALS</string>
-    <string name="women">WOMEN</string>
-    <string name="button">Button</string>
-    <string name="textview6">FLAT
-    70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%O        70-80%OFF70-80%OFF
-        70-80%OFF70-80%OFF
-        70-80%OFF70-80%OFF
-        70-80%OFF70-80%OFF
-        70-80%OFF70-80%OFF
-v        70-80%OFF70-80%OFF
-        70-80%OFF70-80%OFF
-        70-80%OFF70-80%OFF
-FF70-80%OFF
-        70-80%OFF70-80%OFF
-        70-80%OFF70-80%OFF
+    <string name="app_name">AJIO PAYDAY SALES</string>
 
-        70-80%OFF70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-        70-80%OFF
-
-
-    </string>
-    <string name="textview7">CREAM OF OUR HANDPICKED STYLESCREAM O
-        F OUR HANDPICKED STYLESCREAM OF OUR HANDPICKED STYLES
-        CREAM OF OUR HANDPICKED STYLES
-        CREAM OF OUR HANDPICKED STYLES
-
-        CREAM OF OUR HANDPICKED STYLES
-        CREAM OF OUR HANDPICKED STYLES
-    CREAM OF OUR HANDPICKED STYLES</string>
-    <string name="textview8">NOT JUST IN YOUR DREAMS</string>
-    <string name="imageview1">null</string>
-    <string name="textvalue9">Extra 33% off
-    Extra 33% off
-    Extra 33% off
-    Extra 33% off
-    Extra 33% off
-    Extra 33% off
-    Extra 33% off
-    Extra 33% off
-    Extra 33% off</string>
     <string name="todo1">TODO</string>
     <string name="todo2">TODO</string>
     <string name="todo3">TODO</string>
@@ -66,4 +8,42 @@ FF70-80%OFF
     <string name="button3kids">KIDS</string>
     <string name="textview11_blue">textview11_blue</string>
     <string name="textview12_red">textview12_red</string>
+    <string name="button_one">MEN</string>
+    <string name="button_women">WOMEN</string>
+    <string name="button_kids">KIDS</string>
+    <string name="image_one">TODO</string>
+    <string name="image_two">TODO</string>
+    <string name="image_three">TODO</string>
+    <string name="Textview_one">SUPER STEALS</string>
+    <string name="text_Style" />
+    <string name="textview_two">OMG DISCOUNTS</string>
+    <string name="textview_three"><![CDATA[WOMEN\'S KURTAS &KURTIS]]></string>
+    <string name="textview_13">SHOP BY PRODUCT</string>
+    <string name="textview4"><![CDATA[MEN\"S JEANS &TROUSERS]]></string>
+    <string name="textview5"><![CDATA[WOMEN\'S KURUTAS &KURTIS]]></string>
+    <string name="textview77"><![CDATA[WOMEN\'S TOPS&TEES]]></string>
+    <string name="textview88"><![CDATA[WOMEN\'S TOPS&TEES]]></string>
+    <string name="textview9"><![CDATA[WOMEN\'S FLATS & HEELS]]></string>
+    <string name="textview10">ACCESSORIES</string>
+    <string name="textview11">BOY\'S T-SHIRTS</string>
+    <string name="texview12">TOYS</string>
+    <string name="textview14"><center><tt><b>AJIO.com CARES</b></tt></center>
+    \n
+    \n
+            WE DO NOT ASK FOR YOUR BANK ACCOUNT OR CARD DETAILS VERBALLY OR TELEPHONECALLY.
+    \n
+    WE ALSO DO NOT ASK FOR MONEY TO PARTICIPATE IN ANY OF OUR OFFERS OR RUN ANY LUCKY DRAWS.</string>
+    <string name="image9">TODO</string>
+    <string name="image10">TODO</string>
+    <string name="image14">TODO</string>
+    <string name="image19">TODO</string>
+    <string name="image20">TODO</string>
+    <string name="image21">TODO</string>
+    <string name="image22">TODO</string>
+    <string name="image17">TODO</string>
+    <string name="image18">TODO</string>
+    <string name="image16">TODO</string>
+    <string name="image15">TODO</string>
+    <string name="image6">TODO</string>
+    <string name="image8">TODO</string>
 </resources>
