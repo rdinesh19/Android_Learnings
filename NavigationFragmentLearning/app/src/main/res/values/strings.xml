@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">fragment_learning</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_one">next</string>
+    <string name="Textview_one">"fragment one "</string>
+    <string name="button_two">next</string>
+    <string name="text_two">"fragment two "</string>
+    <string name="about">About</string>
+</resources>
