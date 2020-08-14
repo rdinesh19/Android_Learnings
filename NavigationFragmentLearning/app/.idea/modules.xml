@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="fragment_learning/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1529400073/fragment_learning.iml" filepath="$PROJECT_DIR$/.idea/modules/1529400073/fragment_learning.iml" group="fragment_learning" />
+    </modules>
+  </component>
+</project>
