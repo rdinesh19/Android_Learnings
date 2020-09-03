@@ -11,6 +11,11 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 
 class fragment_one : Fragment(), View.OnClickListener {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+
+    }
 
     var navController: NavController? = null
     override fun onCreateView(
