@@ -80,7 +80,6 @@ class SleepTrackerFragment : Fragment() {
             }
         }
 
-
         binding.sleepList.layoutManager = manager
         val adapter = SleepNightAdapter(SleepNightListener { nightId ->
             sleepTrackerViewModel.onSleepNightClicked(nightId)
