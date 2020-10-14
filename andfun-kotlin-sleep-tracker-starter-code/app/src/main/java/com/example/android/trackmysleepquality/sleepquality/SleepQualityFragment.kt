@@ -28,8 +28,6 @@ import androidx.navigation.fragment.findNavController
 import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.databinding.FragmentSleepQualityBinding
-import com.example.android.trackmysleepquality.sleepquality.SleepQualityFragmentDirections.actionSleepQualityFragmentToSleepTrackerFragment
-import com.example.android.trackmysleepquality.sleeptracker.SleepTrackerFragmentDirections
 
 /**
  * Fragment that displays a list of clickable icons,
@@ -58,11 +56,11 @@ class SleepQualityFragment : Fragment() {
         val sleepQualityViewModel =
                 ViewModelProviders.of(
                         this, viewModelFactory).get(SleepQualityViewModel::class.java)
-        binding.sleepQualityViewModel = sleepQualityViewModel
+        binding.sleepQualityViewModel= sleepQualityViewModel
         sleepQualityViewModel.navigateToSleepTracker.observe(this.viewLifecycleOwner,  Observer {
             if (it == true) { // Observed state is true.
                 this.findNavController().navigate(
-                        SleepTrackerFragmentDirections.SleepQualityFragmentDirections.actionSleepQualityFragmentToSleepTrackerFragment())
+                        SleepQualityFragmentDirections.actionSleepQualityFragmentToSleepTrackerFragment())
                 sleepQualityViewModel.doneNavigation()
             }
         })
