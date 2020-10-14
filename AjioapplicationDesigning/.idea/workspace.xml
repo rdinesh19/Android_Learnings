@@ -9,19 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a923c4-d23e-490b-b48d-0b914ecf4abc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Design_Android_Layouts/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_Android_Layouts/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design_Android_Layouts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_Android_Layouts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-starter-code/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-starter-code/app/src/main/java/com/example/android/trackmysleepquality/sleepquality/SleepQualityFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-starter-code/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-starter-code/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-starter-code/app/src/main/res/navigation/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-starter-code/app/src/main/res/navigation/navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/src/main/java/com/example/android/trackmysleepquality/database/SleepNight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/src/main/java/com/example/android/trackmysleepquality/database/SleepNight.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/BindingUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/BindingUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/src/main/res/navigation/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/app/src/main/res/navigation/navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../andfun-kotlin-sleep-tracker-with-recyclerview-starter-code/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="97a923c4-d23e-490b-b48d-0b914ecf4abc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
